@@ -1,3 +1,24 @@
+## 📁 Repository Contents
+
+### 1. `Copy_of_EDA_+_BEST_MODEL_ONLY.ipynb`
+- **Target Variable:** `log_trip_duration`
+- Applies a log transformation to improve distribution and model performance.
+- Produces the **best fit model** with reduced **MAPE** and minimal underprediction bias.
+- Recommended notebook for **final model deployment**.
+
+### 2. `Another_copy_of_EDA_+_BEST_MODEL_ONLY(With_TRIP_DURN).ipynb`
+- **Target Variable:** `trip_duration` (original scale in seconds).
+- Offers good performance but shows a **slightly higher percentage error**.
+- Helpful for interpretation in real-world time units.
+
+### 3. `First_EXECUTION.ipynb`
+- Contains **initial EDA**, **baseline models**, and **feature engineering trials**.
+- Useful for understanding the **modeling journey and experimentation**.
+---
+
+Feel free to fork, star ⭐, and con
+
+---
 # 🗽 NYC Taxi Trip Duration Prediction 🚕
 
 A machine learning capstone project focused on predicting taxi trip durations in New York City using historical trip data, regression models, and hyperparameter tuning.
